@@ -1,0 +1,4 @@
+web:
+https://ambientcg.com/
+license:
+https://help.ambientcg.com/01-General/Licensing.html

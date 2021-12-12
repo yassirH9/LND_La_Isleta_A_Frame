@@ -1,0 +1,32 @@
+.fond-sec1{
+    padding:100px 20px; 
+    background-image: url('/IMG/viejaisleta.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.sec2{
+   margin:auto !important;
+}
+.div-sec2{
+    margin:auto !important;
+}
+.row{
+    margin-top:10px !important;
+    margin-bottom: 10px !important;
+}
+.btn-row{
+    padding-top: 4% !important;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.btn-moded{
+    padding: 5% !important;
+    font-size: 30px !important;
+}
+.img-moded{
+    max-height: 720px;
+}
+.txt-color{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.253);
+}
