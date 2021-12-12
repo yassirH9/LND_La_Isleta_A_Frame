@@ -8033,6 +8033,10 @@ fieldset:disabled .btn {
 }
 
 .text-muted {
+    color: #000 !important;
+}
+
+.text-muted2 {
     color: white !important;
     padding-bottom: 2%;
 }
