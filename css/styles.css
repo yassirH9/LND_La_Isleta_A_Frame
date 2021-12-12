@@ -2857,7 +2857,7 @@ textarea.form-control.is-valid {
     width: 100%;
     margin-top: 0.25rem;
     font-size: 1.2em;
-    color: #000;
+    color: rgba(220, 53, 69, 0.9);
 }
 
 .invalid-tooltip {
@@ -8033,7 +8033,8 @@ fieldset:disabled .btn {
 }
 
 .text-muted {
-    color: #000 !important;
+    color: white !important;
+    padding-bottom: 2%;
 }
 
 .text-black-50 {
@@ -11211,7 +11212,8 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #000;
+    color: white;
+    padding-top: 1%;
 }
 
 section#contact form#contactForm .form-group {
