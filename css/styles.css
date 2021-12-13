@@ -11365,11 +11365,11 @@ footer.transparent .footer-copyright {
 /* Footer light */
 
 footer.light .footer-top {
-    background: #f9f9f9;
+    background: #ffc800;
 }
 
 footer.light .main-footer {
-    background: #f9f9f9;
+    background: #ffc800;
 }
 
 footer.light .footer-copyright {
@@ -11413,11 +11413,11 @@ footer.light .footer-copyright {
 }
 
 .widget li a {
-    color: #ff8d1e;
+    color: #ffc800;
 }
 
 .widget li a:hover {
-    color: #4b92dc;
+    color: #ffc800;
 }
 
 .widget-title {
@@ -11425,7 +11425,7 @@ footer.light .footer-copyright {
 }
 
 .widget-title span {
-    background: #839FAD none repeat scroll 0 0;
+    background: #ffc800 none repeat scroll 0 0;
     display: block;
     height: 1px;
     margin-top: 25px;
@@ -11480,7 +11480,7 @@ ul.social-footer2 li {
 }
 
 ul.social-footer2 li a:hover {
-    background-color: #ff8d1e;
+    background-color: #ffc800;
 }
 
 ul.social-footer2 li a {
@@ -11491,15 +11491,15 @@ ul.social-footer2 li a {
 }
 
 .btn {
-    background-color: #ff8d1e;
-    color: #fff;
+    background-color: #ffc800;
+    color: #000;
 }
 
 .btn:hover,
 .btn:focus,
 .btn.active {
     background: #4b92dc;
-    color: #fff;
+    color: #000;
     -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
