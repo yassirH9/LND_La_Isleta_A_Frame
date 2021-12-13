@@ -56,6 +56,78 @@ var ruta_data = [{
     }
 
 ];
+var galery = [{
+        id: "imgGL1",
+        idint: "inGL1",
+        txtid: "txtGL1",
+        src: "assets/img/portfolio/1.jpg",
+        txt: "Antigua entrada al puerto de la luz"
+    },
+    {
+        id: "imgGL2",
+        idint: "inGL2",
+        txtid: "txtGL2",
+        src: "assets/img/portfolio/2.jpg",
+        txt: "Ermita de la luz"
+    },
+    {
+        id: "imgGL3",
+        idint: "inGL3",
+        txtid: "txtGL3",
+        src: "assets/img/portfolio/3.jpg",
+        txt: "Edificación de la nueva iglesia de la luz"
+    },
+    {
+        id: "imgGL4",
+        idint: "inGL4",
+        txtid: "txtGL4",
+        src: "assets/img/portfolio/4.jpg",
+        txt: "Playa de las canteras"
+    },
+    {
+        id: "imgGL5",
+        idint: "inGL5",
+        txtid: "txtGL5",
+        src: "assets/img/portfolio/5.jpg",
+        txt: "Vista aérea de la isleta"
+    },
+    {
+        id: "imgGL6",
+        idint: "inGL6",
+        txtid: "txtGL6",
+        src: "assets/img/portfolio/6.jpg",
+        txt: "La isleta edificada imagen aérea"
+    },
+    {
+        id: "imgGL7",
+        idint: "inGL7",
+        txtid: "txtGL7",
+        src: "assets/img/portfolio/7.jpg",
+        txt: "La puntilla"
+    },
+    {
+        id: "imgGL8",
+        idint: "inGL8",
+        txtid: "txtGL8",
+        src: "assets/img/portfolio/8.jpg",
+        txt: "Antigua piscina de la isleta"
+    },
+    {
+        id: "imgGL9",
+        idint: "inGL9",
+        txtid: "txtGL9",
+        src: "assets/img/portfolio/9.jpg",
+        txt: "El istmo de la isleta"
+    },
+    {
+        id: "imgGL10",
+        idint: "inGL10",
+        txtid: "txtGL10",
+        src: "assets/img/portfolio/10.jpg",
+        txt: "Salinas de la isleta"
+    }
+
+];
 window.onload = LoadEv;
 console.log("inicio ruta_data");
 
@@ -69,5 +141,14 @@ function LoadEv() {
         title.innerText = ruta_data[i].title;
         subtitle.innerText = ruta_data[i].subtitle;
         console.log("ruta_data_dis");
+    }
+    for (var i = 0; i < galery.length; i++) {
+        var img = document.getElementById(galery[i].id);
+        var txt = document.getElementById(galery[i].txtid)
+        var ini = document.getElementById(galery[i].idint);
+        ini.src = galery[i].src;
+        img.src = galery[i].src;
+        txt.innerText = galery[i].txt;
+        console.log("galery_dis" + i);
     }
 }
